@@ -80,7 +80,7 @@ export const FeaturesSection = ({ onJoinClick }: FeaturesSectionProps): JSX.Elem
           </div>
 
           <div className="flex flex-col max-w-screen-md w-full items-center">
-            <p className="font-semibold text-gray-300 text-[23.4px] text-center tracking-[0] leading-[39px] font-poppins">
+            <p className="font-semibold text-gray-300 md:text-[23.4px] text-[18px] text-center tracking-[0] leading-[39px] font-poppins">
               We provide the highest payouts, best support, and most reliable
               <br />
               platform for Roblox content creators
@@ -107,11 +107,11 @@ export const FeaturesSection = ({ onJoinClick }: FeaturesSectionProps): JSX.Elem
                     </div>
 
                     <div className="flex flex-col items-start gap-[15.12px] w-full">
-                      <h3 className="font-bold text-white text-[23.4px] tracking-[0] leading-8 font-poppins">
+                      <h3 className="font-bold text-white md:text-[23.4px] text-[18px] tracking-[0] leading-8 font-poppins">
                         {card.title}
                       </h3>
 
-                      <p className="font-normal text-gray-300 text-base tracking-[0] leading-[29.2px] font-poppins">
+                      <p className="font-normal text-gray-300 text-[18px] text-base tracking-[0] leading-[29.2px] font-poppins">
                         {card.description}
                       </p>
                     </div>
@@ -125,7 +125,7 @@ export const FeaturesSection = ({ onJoinClick }: FeaturesSectionProps): JSX.Elem
         <div className="flex flex-col w-full items-center">
           <Button onClick={onJoinClick} className="gap-3 px-[33px] py-[17px] rounded-2xl border border-green-500 bg-gradient-to-r from-green-900/80 to-green-800/80 inline-flex items-center border-solid backdrop-blur-sm h-auto hover:opacity-90 transition-opacity">
             <Star className="w-5 h-5 text-green-400" />
-            <span className="font-semibold text-white text-[17px] text-center tracking-[0] leading-6 whitespace-nowrap font-poppins">
+            <span className="font-semibold text-white text-[20px] text-center tracking-[0] leading-6 whitespace-nowrap font-poppins">
               Join thousands of successful creators today!
             </span>
           </Button>

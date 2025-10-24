@@ -1,4 +1,4 @@
-import { ArrowRightIcon, Star, Users, DollarSign, Instagram, Youtube, Music } from "lucide-react";
+import { ArrowRightIcon, Star, Users, DollarSign, Instagram, Youtube, Music, Twitter, X } from "lucide-react";
 import { Badge } from "../../ui/badge";
 import { Button } from "../../ui/button";
 import { Card, CardContent } from "../../ui/card";
@@ -36,19 +36,22 @@ export const HeroSection = ({ onJoinClick }: HeroSectionProps): JSX.Element => {
         <div className="absolute top-[174px] left-[480px] w-96 h-96 bg-green-400/10 rounded-full blur-[32px]" />
         <div className="right-[480px] bottom-[174px] w-80 h-80 bg-green-300/5 absolute rounded-full blur-[32px]" />
         
-        <div className="absolute top-[504px] left-[1282px] w-[43px] h-[430px] flex items-center justify-center">
-          <Instagram className="w-8 h-8 text-pink-500" />
+        <div className="absolute lg:top-[400px] lg:left-[unset] lg:right-[800px] left-[200px] top-[unset] bottom-[-160px] rotate-[70deg] w-[120px] h-[530px] flex items-center justify-center">
+          <Instagram className="w-[100px] h-[100px] text-pink-500" />
         </div>
-        <div className="absolute top-[175px] left-[1395px] w-[67px] h-[67px] flex items-center justify-center">
-          <Music className="w-10 h-10 text-white" />
+        <div className="absolute top-[175px] left-[1395px] w-[120px] h-[100px] flex items-center justify-center lg:top-[225px] lg:left-[unset] lg:right-[600px] right-[50px] left-[unset] top-[unset] bottom-[340px] rotate-[30deg]">
+          <Music className="w-[100px] h-[100px] text-white" />
         </div>
-        <div className="absolute top-[157px] left-[1075px] w-[60px] h-[250px] flex items-center justify-center">
-          <Youtube className="w-12 h-12 text-red-500" />
+        <div className="absolute lg:top-[160px] lg:left-[unset] lg:right-[900px] left-[100px] top-[unset] bottom-[215px] rotate-[20deg] w-[120px] h-[250px] flex items-center justify-center">
+          <Youtube className="w-[100px] h-[100px] text-red-500" />
+        </div>
+        <div className="absolute lg:top-[400px] lg:left-[unset] lg:right-[450px] left-[200px] top-[unset] bottom-[-160px] w-[120px] h-[530px] flex items-center justify-center">
+          <Twitter className="w-[100px] h-[100px] text-blue-500" />
         </div>
       </div>
 
-      <div className="flex flex-col max-w-screen-2xl w-full items-start px-6 md:px-12 lg:px-32 py-20 relative">
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-16 w-full">
+      <div className="flex flex-col max-w-screen-2xl w-full items-start md:px-6 px-0 lg:px-32 md:py-20 py-0 relative">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-24 w-full">
           <div className="flex flex-col w-full lg:w-[608px] items-start gap-8">
             <Badge
               variant="outline"
@@ -61,10 +64,10 @@ export const HeroSection = ({ onJoinClick }: HeroSectionProps): JSX.Element => {
             </Badge>
 
             <div className="flex flex-col gap-2 w-full">
-              <h1 className="font-bold text-white text-[56px] tracking-[0] leading-[64px] font-poppins">
+              <h1 className="font-bold text-white md:text-[56px] text-[46px] tracking-[0] leading-[64px] font-poppins">
                 Monetize Your
               </h1>
-              <h1 className="font-bold text-green-400 text-[56px] tracking-[0] leading-[64px] font-poppins">
+              <h1 className="font-bold text-green-400 md:text-[56px] text-[46px] tracking-[0] leading-[64px] font-poppins">
                 Roblox Content
               </h1>
             </div>
