@@ -40,13 +40,13 @@ export const CallToActionSection = ({ onJoinClick }: CallToActionSectionProps): 
                 </span>
               </Badge>
               <div className="flex flex-col max-w-screen-md w-full">
-                <h2 className="font-semibold text-white text-[48px] text-left tracking-[0] leading-[56px] font-poppins">Ready to Monetize Your</h2>
-                <h2 className="font-semibold text-green-400 text-[48px] text-left tracking-[0] leading-[56px] font-poppins">Roblox Content?</h2>
+                <h2 className="font-semibold text-white md:text-[48px] text-[36px] text-left tracking-[0] leading-[56px] font-poppins">Ready to Monetize Your</h2>
+                <h2 className="font-semibold text-green-400 md:text-[48px] text-[36px] text-left tracking-[0] leading-[56px] font-poppins">Roblox Content?</h2>
               </div>
             </div>
 
             <div className="flex flex-col items-center gap-6 max-w-screen-md w-full">
-              <p className="font-semibold text-gray-300 text-[23.4px] leading-[39px] text-center font-poppins">
+              <p className="font-semibold text-gray-300 md:text-[23.4px] text-[18px] leading-[39px] text-center font-poppins">
                 Join our creator program and start earning from your Roblox
                 content
                 <br />

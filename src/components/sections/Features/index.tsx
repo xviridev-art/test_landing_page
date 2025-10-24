@@ -80,7 +80,7 @@ export const FeaturesSection = ({ onJoinClick }: FeaturesSectionProps): JSX.Elem
           </div>
 
           <div className="flex flex-col max-w-screen-md w-full items-center">
-            <p className="font-semibold text-gray-300 text-[23.4px] text-center tracking-[0] leading-[39px] font-poppins">
+            <p className="font-semibold text-gray-300 md:text-[23.4px] text-[18px] text-center tracking-[0] leading-[39px] font-poppins">
               We provide the highest payouts, best support, and most reliable
               <br />
               platform for Roblox content creators
@@ -107,7 +107,7 @@ export const FeaturesSection = ({ onJoinClick }: FeaturesSectionProps): JSX.Elem
                     </div>
 
                     <div className="flex flex-col items-start gap-[15.12px] w-full">
-                      <h3 className="font-bold text-white text-[23.4px] tracking-[0] leading-8 font-poppins">
+                      <h3 className="font-bold text-white md:text-[23.4px] text-[18px] tracking-[0] leading-8 font-poppins">
                         {card.title}
                       </h3>
 
